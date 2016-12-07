@@ -8,6 +8,7 @@ body {
 	font-weight: 200;
 	letter-spacing: 0.1em;
 	color: #ffffff;
+	background-color: #1c1c1c;
 }
 
 /* buttons */
@@ -57,6 +58,7 @@ p {
 	background-image: linear-gradient(rgba(28, 28, 28, 0.5), rgba(28, 28, 28, 0.5)), url("../images/background-lg.png");
 	height: 100%;
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 .hero-text {
@@ -108,3 +110,12 @@ nav ul > li > a {
 	color:#FFFFFF;
 	text-decoration: none;
  }
+
+.stats {
+	height:265px;
+	background-color: #333333;
+}
+
+.soapbox {
+	height:375px;
+}
