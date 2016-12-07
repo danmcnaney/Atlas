@@ -4,7 +4,53 @@ html, body {
 
 body {
 	/* padding-top: 60px; */
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 200;
+	letter-spacing: 0.1em;
+	color: #ffffff;
 }
+
+/* buttons */
+#grad {
+  background: #32e147; /* For browsers that do not support gradients */
+  /* For Safari 5.1 to 6.0 */
+  background: -webkit-linear-gradient(left,#32e147,#25a935);
+  /* For Opera 11.1 to 12.0 */
+  background: -o-linear-gradient(left,#32e147,#25a935);
+  /* For Fx 3.6 to 15 */
+  background: -moz-linear-gradient(left,#32e147,#25a935);
+  /* Standard syntax */
+  background: linear-gradient(to right, #32e147,#25a935); 
+}
+
+.btn {
+	border: 0px;
+}
+
+.btn-info {
+	background-color: #333333;
+}
+
+/* text */
+h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+	font-size: 40px;
+	color: #ffffff;
+	padding-bottom: 15px;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	letter-spacing: 0.1em;
+	font-size: 18px;
+	color: #ffffff;
+	padding-top: 0px;
+	padding-bottom: 15px;
+}
+
 
 /* hero */
 .hero {
@@ -16,6 +62,13 @@ body {
 .hero-text {
 	padding-top: 15%;
 }
+
+.btn-lg {
+	height:60px;
+	width:260px;
+	padding-top: 18px;
+	box-shadow: 0px 0px 20px #231f20;
+}
 /* navbar */
 .navbar-custom {
     background: rgba(28,28,28,0.5);
@@ -24,7 +77,34 @@ body {
 .navbar {
 	min-height: 60px;
 }
-.navbar-brand {
-	padding-top: 5px;
-	padding-bottom: 5px;
+
+nav ul {
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
+
+nav ul > li {
+   list-style-type: none;
+   display: inline-block;
+   margin:0 15px;
+}
+
+nav ul > li:hover > a {
+	color:#dbdbdb;
+	text-decoration: none;
+ }
+
+nav ul > li.btn-outline {
+   padding:10px 15px;
+   border:2px solid #784ae6;
+   border-radius: 4px;
+ }
+
+nav ul > li.btn-outline:hover {
+   background:#784ae6;
+ }
+
+nav ul > li > a {
+	color:#FFFFFF;
+	text-decoration: none;
+ }
