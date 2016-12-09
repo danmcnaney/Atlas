@@ -175,6 +175,7 @@ blockquote {
 	border:none;
 	font-weight: 400;
 	font-style: italic; 
+	padding: 0px;
 	margin-bottom: 20px;
 	margin-top: 280px;
 }
@@ -216,6 +217,27 @@ blockquote h3 {
 	text-align: left;
 }
 
+/* Staff */
+.staff {
+	background-image: linear-gradient(rgba(28, 28, 28, 0.5), rgba(28, 28, 28, 0.5)), url("../images/staff1.png");
+	height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	letter-spacing: 0.16em;
+}
+.bubble-list {
+	text-align: center;
+	padding-top: 100px;
+}
+.bubble {
+	border: 2px solid #FFFFFF;
+	border-radius: 10px;
+	padding-top: 30px;
+	margin: 0 30px;
+	display: inline-block;
+	width: 84px;
+	height: 84px
+}
 .soapbox {
 	width: 50%;
 	padding-top: 125px;
