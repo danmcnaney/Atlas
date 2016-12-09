@@ -176,9 +176,12 @@ blockquote {
 	font-weight: 400;
 	font-style: italic; 
 	margin-bottom: 20px;
-	margin-top: 320px;
+	margin-top: 280px;
 }
-
+blockquote h3 {
+	text-align: left;
+	font-weight: 400;
+}
 
 
 /* blockquote h3:before { 
