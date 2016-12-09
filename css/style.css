@@ -38,9 +38,12 @@ h1 {
 	font-weight: 600;
 	letter-spacing: 0.1em;
 	font-size: 40px;
-	color: #ffffff;
+	color: #784ae6;
+	text-align: center;
 	padding-bottom: 15px;
 }
+
+
 
 p {
 	font-family: 'Open Sans', sans-serif;
@@ -48,10 +51,15 @@ p {
 	letter-spacing: 0.1em;
 	font-size: 18px;
 	color: #ffffff;
+	line-height: 1.6;
+	text-align: center;
 	padding-top: 0px;
 	padding-bottom: 15px;
 }
 
+.hero p {
+	text-align: left;
+}
 
 /* hero */
 .hero {
@@ -61,10 +69,14 @@ p {
 	background-attachment: fixed;
 }
 
-.hero-text {
+.hero-body {
 	padding-top: 15%;
 }
 
+.hero h1 {
+	color: #ffffff;
+	text-align: left;
+}
 .btn-lg {
 	height:60px;
 	width:260px;
@@ -112,10 +124,44 @@ nav ul > li > a {
  }
 
 .stats {
-	height:265px;
-	background-color: #333333;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin: 0 auto;
+	font-weight: 700;
+	text-align: center;
+}
+
+.green-border {
+	border: 2px solid #32e147;
+	border-radius: 10px;
+	margin: 0 50px;
+	padding: 35px 15px;
+	display: inline-block;
+	width: 246px;
+}
+
+.green-num {
+	color: #25a935;
+	font-size: 46px;
+	line-height: 0.7;
+	padding-bottom: 30px;
+	letter-spacing: 0.1em;
+}
+
+.box-text {
+	font-size: 14px;
+	color: #dfdfdf;
+	letter-spacing: 0.2em;
 }
 
 .soapbox {
-	height:375px;
+	width: 50%;
+	padding-top: 125px;
+	padding-bottom: 125px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.alt {
+	background-color: #333333;
 }
