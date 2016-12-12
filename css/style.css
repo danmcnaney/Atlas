@@ -32,6 +32,11 @@ body {
 	background-color: #333333;
 }
 
+.table .btn-info {
+	background-color: #dfdfdf;
+	color: #333333;
+}
+
 /* text */
 h1 {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -217,6 +222,24 @@ blockquote h3 {
 	text-align: left;
 }
 
+.table > tr {
+	vertical-align: middle;
+	padding: 0 15px;
+}
+
+.table > tbody > tr > td {
+	padding: 15px;
+	vertical-align: middle;
+}
+
+tr:last-child {
+	border-bottom: 1px solid #ffffff;
+}
+
+.table p {
+	padding-bottom: 0px;
+}
+
 /* Staff */
 .staff {
 	background-image: linear-gradient(rgba(28, 28, 28, 0.5), rgba(28, 28, 28, 0.5)), url("../images/staff1.png");
@@ -248,4 +271,8 @@ blockquote h3 {
 
 .alt {
 	background-color: #333333;
+}
+
+.align-right {
+	text-align: right;
 }
