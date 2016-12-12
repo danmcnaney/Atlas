@@ -223,7 +223,7 @@ blockquote h3 {
 }
 
 .phone-crop {
-	padding-bottom: 0;
+	padding: 0;
 }
 
 .table > tr {
@@ -343,4 +343,8 @@ footer p {
 .parallax-window {
     min-height: 700px;
     background: transparent;
+}
+
+.bump {
+	padding-top: 90px;
 }
