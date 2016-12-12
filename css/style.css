@@ -222,6 +222,10 @@ blockquote h3 {
 	text-align: left;
 }
 
+.phone-crop {
+	padding-bottom: 0;
+}
+
 .table > tr {
 	vertical-align: middle;
 	padding: 0 15px;
@@ -277,6 +281,10 @@ tr:last-child {
 	text-align: right;
 }
 
+.social-block {
+	vertical-align: middle;
+}
+
 .social-block .social-networks {
 		display: inline-block;
     vertical-align: middle;
@@ -285,10 +293,14 @@ tr:last-child {
     margin-left: -95px;
 }
 
+.social-networks {
+	margin-bottom: 0px;
+}
+
 .social-networks > li {
     display: inline-block;
     vertical-align: middle;
-    margin: 1px 12px 11px 0;
+    margin: 1px 12px 0px 0;
     position: relative;
     z-index: 9;
     text-transform: uppercase;
@@ -314,7 +326,7 @@ tr:last-child {
 	position: relative;
 	z-index: 2;
 	width: 90px;
-	margin-bottom: 15px;
+	margin-bottom: 0px;
 }
 
 footer {
@@ -324,4 +336,6 @@ footer {
 footer p {
 	text-align: left;
 	margin-top: 8px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 }
