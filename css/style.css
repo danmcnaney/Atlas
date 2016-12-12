@@ -244,6 +244,29 @@ tr:last-child {
 	padding-bottom: 0px;
 }
 
+@media only screen and (max-width: 767px) {
+	.table thead {
+  	display: none;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.table td, .table th {
+    border: none;
+    padding: 0 20px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+.table tr, .table td, .table tbody, .table th {
+    float: left;
+    width: 100%;
+    display: block;
+    clear: both;
+    text-align: left;
+	}
+}
+
 /* Staff */
 .staff {
 	background-image: linear-gradient(rgba(28, 28, 28, 0.5), rgba(28, 28, 28, 0.5)), url("../images/staff1.png");
