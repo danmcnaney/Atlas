@@ -76,10 +76,10 @@ p {
 
 /* hero */
 .hero {
-	background-image: linear-gradient(rgba(28, 28, 28, 0.5), rgba(28, 28, 28, 0.5)), url("../images/background-lg.png");
-	height: 100%;
-	background-size: cover;
-	background-attachment: fixed;
+	background-image: linear-gradient(rgba(28, 28, 28, 0.5), rgba(28, 28, 28, 0.5))/*, url("../images/background-lg.png")*/;
+/*	height: 100%*/;
+/*	background-size: cover;*/
+/*	background-attachment: fixed*/;
 }
 
 .hero-body {
@@ -168,13 +168,13 @@ nav ul > li > a {
 }
 
 /* testimonial */
-.testimonial {
+/*.testimonial {
 	background-image: linear-gradient(rgba(28, 28, 28, 0.5), rgba(28, 28, 28, 0.5)), url("../images/testimonial.png");
 	height: 100%;
 	background-size: cover;
 	background-attachment: fixed;
 	letter-spacing: 0.16em;
-}
+}*/
 
 blockquote {
 	border:none;
@@ -338,4 +338,9 @@ footer p {
 	margin-top: 8px;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
+}
+
+.parallax-window {
+    min-height: 700px;
+    background: transparent;
 }
