@@ -269,11 +269,15 @@ tr:last-child {
 
 /* Staff */
 .staff {
-	background-image: linear-gradient(rgba(28, 28, 28, 0.5), rgba(28, 28, 28, 0.5)), url("../images/staff1.png");
-	height: 100%;
-	background-size: cover;
-	background-attachment: fixed;
 	letter-spacing: 0.16em;
+}
+
+.staff blockquote {
+	margin-top: 200px;
+}
+
+.staff a {
+	margin-top: 220px;
 }
 .bubble-list {
 	text-align: center;
