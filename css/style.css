@@ -135,6 +135,19 @@ nav ul > li > a {
 	color:#FFFFFF;
 	text-decoration: none;
  }
+
+ @media only screen and (max-width: 1063px) {
+	.navbar-brand {
+    padding-top: 10px;
+	}
+}
+
+@media only screen and (max-width : 768px) {
+       .navbar-toggle {
+       		background-color: rgba(256,256,256,0.3);
+       		margin-top: 12px;
+       	}
+}
 /* stats */
 .stats {
 	padding-top: 40px;
@@ -151,6 +164,12 @@ nav ul > li > a {
 	padding: 35px 15px;
 	display: inline-block;
 	width: 246px;
+}
+
+@media only screen and (max-width: 1063px) {
+	.green-border {
+    margin: 20px 0;
+	}
 }
 
 .green-num {
