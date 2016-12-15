@@ -94,7 +94,7 @@ p {
 
 /* hero */
 .hero {
-	background-image: linear-gradient(rgba(28, 28, 28, 0.5), rgba(28, 28, 28, 0.5));
+	/*background-image: linear-gradient(rgba(28, 28, 28, 0.5), rgba(28, 28, 28, 0.5));*/
 }
 
 .hero-body {
@@ -117,6 +117,11 @@ p {
 	padding-top: 18px;
 	box-shadow: 0px 0px 20px #231f20;
 }
+
+.btn:focus {
+	outline: inherit;
+}
+
 /* navbar */
 .navbar-custom {
     background: rgba(28,28,28,0.5);
@@ -417,6 +422,11 @@ tr:last-child {
     border: 2px solid #a2a2a6;
     border-radius: 50%;
     color: #a2a2a6;
+}
+
+.social-networks > li > a:hover {
+    color: #32e147;
+    border-color: #32e147;
 }
 
 .social-block .title {
